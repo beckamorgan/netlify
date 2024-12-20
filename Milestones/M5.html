@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Milestone 5</title>
+	<link href="../../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../../css/site.css" rel="stylesheet">
+	<link href="../../css/assignments.css" rel="stylesheet">
+</head>
+<body>
+	<div class="page-header">
+		<h1 class="text-center">Milestone <small>Five</small></h1>
+		<h1 class="text-danger">NOT YET UPDATED FOR 2022</h1>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="objectives">
+					<h4>Primary Objectives:</h4>
+					<ol>
+						<li>Demonstrate how to hold a successful retrospective meeting</li>
+						<!--li>Prove architecture: continuous deployment to Azure</li-->
+						<li>Conclude team project inception</li>
+						<li>Be ready for team project construction</li>
+					</ol>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="requirements">
+					<h4>Overall Requirements at a Glance:</h4>
+					<ul class="list-unstyled">
+						<li>Class Project Retrospective artifacts</li>
+						<!--li>Proof of working continuous deployment to Azure (class project)</li-->
+						<li>Team Project Inception (Part 3)
+						    <ul>
+						        <li>Updates of documents, modeling, and other artifacts</li>
+						        <li>Development guidelines/team rules/requirements/... &ldquo;Contributing to Project&rdquo; written in Markdown format and linked from project Git repo welcome page</li>
+						    </ul>
+						</li>
+						<li>Team Project Construction preparation
+						    <ul>
+								<li>Backlog refinement/grooming done</li>
+								<li>Backlog and user stories look really good and are ready for sprint 1</li>
+						        <li>Select user stories to prove architecture and address important risks early in iteration</li>
+						        <li>Select user stories for each team member for full 2 week iteration</li>
+						    </ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="questions">
+					<h4>Tasks:</h4>
+					<ol>
+						<li><strong>Class Project Retrospective</strong> &mdash; hold a retrospective meeting with your team.  There needs to be a time set aside for every team member to contribute.  Let each person say what went well and what didn't.  Be positive, say what went well.  When something didn't go well, still be positive.  Treat it as a problem that needs to be identified and then solved.    Take short notes as you hold your meeting and then write up a short summary (that of course goes in your repository) of the following:
+						<ol>
+						    <li>Conduct a Safety Check if you can meet in person; what were the results?  If you're holding it remotely, choose a different activity method from <a href="https://www.funretrospectives.com/">Fun Retrospectives</a>.</li>
+						    <li>What did you learn from the Sprint?</li>
+						    <li>What isn't going well?</li>
+						    <li>What can the team do better during the next Sprint?  You must make a specific Action Plan.</li>
+						    <li>Are there any items that need to be brought up with someone outside the team?  (i.e. in this case the instructor)</li>
+						</ol>
+						</li>
+
+						<!--li><p><strong>Class Project Continuous Deployment</strong> &mdash;
+						Set up continuous deployment to Azure from your GitHub repository for your class project.  This should be configured to automatically build and deploy from your <code>master</code> branch to a Azure Web App (that you'll use for the rest of the term).  (Note: we're not doing continuous deployment of our database.  That is for now updated and deployed manually.)
+						</p> <p>The intent is to learn how to do this now; then for Sprint 1 of the Team Project you can simply switch over to your team project, using the same infrastructure.  Note, it is also trivial to change which branch the deployment is based off of, so you should test this off your <code>dev</code> branch and then when it's working, switch back to <code>master</code>.</p>
+						<p>Be prepared to demonstrate live during your review meeting that continuous deployment is set up and working correctly.  You'll be asked to make a trivial change to a display element in your application and merge the change into <code>master</code> during the meeting.  The website should then update automatically with your change.  Have this ready to go before the meeting to save time.  It should only take 1 minute to do this.  (The official maintainer can do this from a feature branch off master, directly merging into master with no pull request.) </p>
+						</li-->
+
+						<li><p><strong>Team Project Inception (3 of 3)</strong> &mdash; Now's the time to finish your inception activities.  All items in the template markdown file should be completed or updated with the latest information.  Expectations are that each team is prepared to demonstrate the highest quality work.</p>
+						<p>You should have the highest priority features for your "core application" well defined (at least those known now).  This means discussed, modeled (architecture, Use Case diagrams, UI wireframes, ...) and described with text and lists.  Remember, you are defining the requirements.  It should not be ambiguous or unknown what the client wants and how they want it to work (again, for the top priority features).  From these base features it's likely you will have defined at least 10 Epics.  From there you should have good, well defined user stories that will get you through the first sprint plus a few extra.  This means you must estimate the effort for them.  Make sure to do this as a team while discussing each story.  </p>
+						<p>All Epics and user stories should be entered into your new Pivotal Tracker project and that project should be set up correctly with dates, story point numbering scheme, etc.</p></li>
+
+						<li><p><strong>Team Project Inception (3 of 3)</strong> &mdash; now that you're about ready to begin construction, you should improve your project documentation and settle on some procedures that the team has agreed (amongst themselves) to follow.  Basically, to be a part of the team, what do you need to do or know?  Write all this up and include it in a very visible way on, or hyperlinked from, your main readme markdown page on GitHub.  All these should be in Markdown format and obvious to find. Here are some things I've thought of.</p>
+						<ul>
+							<li>Start here: <a href="https://guides.github.com/features/wikis/">Documenting your projects on GitHub</a>, and then see examples at <a href="https://github.com/matiassingers/awesome-readme">awesome-readme</a></li>
+							<li>Why are you doing this project?  Please reference the senior capstone courses at WOU.</li>
+							<li>Guidelines and Contributing code to the project.  How to contribute.  What rules to follow when writing code?  Database?  Should you always make the primary key just <code>ID</code> or use the style of <code>ProductID</code>?  What about id's in HTML elements?  Class names?  Model naming convention? Leading underscore's for private member variables?  Here's a short example I wrote for a class a while ago that will give you some ideas: <a href="https://bitbucket.org/morses/wou-3d-scanner/src/53070fa973e5400cf6de47aacf3174ed9a489195/guidelines.md?fileviewer=file-view-default">Guidelines</a>  </li>
+							<li>Clearly list all team members.  Link to their personal GitHub pages.  This will be a great project for potential employers to look at, so make it obvious you worked on it!</li>
+							<li>What software construction processes or lifecycles are you using?  Links to important documents?  </li>
+							<li>Any team rules?</li>
+							<li>List of tools used, including versions where relevant.  Continuous development/deployment?  Link to your deployed site?</li>
+						</ul></li>
+
+						<li><p><strong>Team Project Construction preparation</strong> &mdash; hold a backlog refinement/grooming meeting and then also a planning meeting (probably do them at the same time).  Now, right before your first real 2-week Sprint is the time to get your backlog into shape.  Your goal is to have a nice looking, orderly backlog.  It has to be ready for the first sprint with really good user stories and thorough descriptions that will make the stories easy to implement.  Here are some requirements:</p>
+							<ol>
+								<li>All epics for all core features are entered and in priority order</li>
+								<li>All user stories that you've written to this point are entered and prioritized</li>
+								<li>You've estimated the effort points (as a team) for enough of the highest priority stories to make one whole sprint plus a few extra.  This will help you choose ones that add up to our starting velocity.</li>
+								<li>The stories that might go into Sprint 1 are very well defined and have tasks (i.e. you've followed the exemplar).  Tasks are written to itemize the steps needed to implement and test (manually) the story.  If you find that you don't yet know some of the "what" (to build) for stories in Sprint 1 then you should work on it some more.  If you find that you don't yet know some of the "how" (to build it) for stories that's totally normal at this point -- there will be a lot of learning going on every Sprint.  We'll try to take care of those unknowns by recognizing them when estimating stories.</li>
+								<li>You should select one team member to act as the Scrum Master to keep your meeting on task and progressing efficiently.  We haven't practiced Scrum Master skills yet so you'll have to wing it for now based on what you saw in the Scrum training series videos.</li>
+						
+								<li><p>Select and commit user stories for Sprint 1.  This is a two week, 100&percnt; capacity Sprint, so you have quite a bit of time.  Be sure to have the first few user stories be ones that prove your architecture and get everything running smoothly before trying to add significant functionality.  Handle dependencies the best way you can; enter blockers in Pivotal Tracker.  If your project will have individual user accounts then now is the time to set it up.  There are videos and materials to help you out in Canvas. </p>
+
+								<p>  You need to have enough stories in the Sprint so that <strong>each team member has 6 effort points per sprint</strong>.  That's <code>6 * 4 = 24</code> effort points total if you have 4 team members or <code>6 * 3 = 18</code> if you have 3 team members.  Use the definition of effort points that we've gone over in Canvas. </p>
+								</li>
+
+								<li>Ideally you want each team member to select their own stories on a just-in-time basis, limiting WIP (work in progress) to one story per person at a time.  For this first sprint, however, go around and choose the entire sprint's worth of stories for each person.  But you only work on one user story at a time! </li>
+
+								<li>Be ready for the start of the sprint after your review meeting next week.  Plan to have 4 points worth of stories done per developer within the first week, and earlier if there are dependencies with a teammate's story. <strong>Do not under any circumstances think that you have 2 weeks to do this work and then wait until late in week 2 to start or do all your work.  Imagine if you were a professional developer and did that in your job.  What would happen?</strong> If you are sick or otherwise unable to work on your project, immediately alert your teammates and then your project advisor.  Teammates should do what they can to continue with the project.  We will deal with events like this on a case-by-case basis.</li>
+
+								<li>At the end of the sprint you'll demo all work at the Sprint Review Meeting and stories will be accepted or rejected based upon their descriptions in Pivotal Tracker.</li>
+				        	</ol>
+				        </li>
+					</ol>
+				</div>
+				<p></p>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="../../js/bootstrap.min.js"></script>
+</body>
+</html>

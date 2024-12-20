@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Milestone 4</title>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/site.css" rel="stylesheet">
+    <link href="../../css/assignments.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="page-header">
+        <h1 class="text-center">Milestone <small>Four</small></h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="objectives">
+                    <h4>Primary Objectives:</h4>
+                    <ol>
+                        <li>Get your backlogs in shape!</li>
+                        <li>Make a few more decisions that should be made before Sprint 1</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="requirements">
+                    <h4>Overall Requirements:</h4>
+                    <ul class="list-unstyled">
+                        <li>Backlog refinement/grooming meeting: get your product backlog ready</li>
+                        <li>Sprint planning meeting: get your Sprint 1 backlog ready</li>
+                        <li>Make a few architectural decisions</li>
+                        <li>Draw up your initial data model</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="questions">
+                    <h4>Tasks:</h4>
+                    <ol>
+                        <li>
+                            <p><strong>Product Backlog &#9654; </strong> Let's get your product backlog into shape. Gather with your team for a Backlog Grooming &amp; Refinement meeting. Here are some recommended steps:</p>
+                            <ol>
+                                <li>Choose a team member to be the Scrum Master for this week and the upcoming Sprint 1. Have this person lead the meeting and try to follow the principles we've learned about Scrum.</li>
+                                <li>Start with your epics. Epics for all core features (that you identified in your mindmap and needs &amp; features lists) are typed into Jira and prioritized in the Epic panel. Make sure your team is in agreement concerning
+                                    the ordering. Remember, you don't have to do all the stories in an epic in order; you can choose stories from multiple epics to go into one sprint. But those stories will naturally come from the top priority epics.
+                                    I recommend having one epic called &ldquo;Initial Application Setup&rdquo; that will hold user stories that allow you to get the base application up and running.</li>
+                                <li>
+                                    <p>All user stories that you identified last week have been entered and prioritized. Now look at those and your top epics. Break down any epics (or user stories that are in fact of epic size) into <strong>good</strong>                                        user stories following the INVEST attributes. Write descriptions for those user stories that follow the exemplar. Add preconditions, and dependencies if there are any. Estimate their effort, talk about what will
+                                        be required to implement them (write a task or two), prioritize, do some modeling, and other activities you saw in the Scrum Videos and read about in the Scrum Guide. You'll have one more chance to look at these
+                                        when you do Sprint Planning. Your goal here is to have enough user stories for 1 &#189; sprints. (See below for how many effort points that is.)</p>
+                                    <p>Each user story here <strong>must</strong> be a complete feature representing a thin vertical slice, and meeting as much of the INVEST qualities as you can. <em>It's really important to try hard to get these right.  User stories that don't meet these criteria are difficult to complete and you're likely to have a hard time with them and end the sprint with a lower grade.</em></p>
+                                </li>
+                                <li>Repeat until you have a backlog you think is realistic and will get your project started.</li>
+                            </ol>
+                        </li>
+
+                        <li>
+                            <p><strong>Sprint Backlog &#9654; </strong> Now for the Sprint backlog! Your Scrum Master should organize, and your team should then hold, a Sprint planning meeting. If your grooming and refinement meeting was a good one, this
+                                planning meeting will be short and easy. If not, you've got some more work to do. You should really have some goals for the sprint -- things you hope to achieve (and build). </p>
+                            <p>Go down your product backlog one user story at a time. The Scrum Master should ask these questions at least:</p>
+                            <ul>
+                                <li>How do you feel about this user story? Does it make sense and does it help accomplish the goals of this sprint and the project?</li>
+                                <li>Is it well defined? Are there any questions about how it will be implemented?</li>
+                                <li>Is it a vertical slice?</li>
+                                <li>How big is it? Re-estimate when there is any doubt.</li>
+                                <li>Can we identify any more tasks?</li>
+                                <li>Can we answer some questions by doing some modeling? UI, database, UML diagrams?</li>
+                                <li>Can we answer some questions by looking something up?</li>
+                                <li>And lastly, can we commit to building this feature during this sprint?</li>
+                            </ul>
+                            <p style="margin-top: 5px">Create a sprint in Jira, giving it the correct dates, etc. Sprints start the day after the meeting with your advisor and end two weeks later on the day of the meeting, i.e. the sprint review meeting is on the last day of the
+                                sprint. Add user stories to the sprint. Your team needs to have enough stories in the sprint so that <strong>each team member has 6 effort points per sprint.</strong> That's <code>6 * 4 = 24</code> effort points total for
+                                a 4 person team. (Recall that effort points can only be 1, 2, or 4 for this first sprint.) </p>
+                            <p>Ideally you want each team member to select their own stories on a just-in-time basis, limiting WIP (work in progress) to one story per person at a time. For our sprints, however, go around and choose the entire sprint's worth
+                                of stories for each person to equally distribute the load and the points. But you only work on one user story at a time! </p>
+                            <p>Be ready for the start of the sprint after your review meeting next week. Plan to have 4 points worth of stories done per developer within the first week, and earlier if there are dependencies with a teammate's story. <strong>Do not under any circumstances think that you have 2 weeks to do this work and then wait until late in week 2 to start or do all your work.  Imagine if you were a professional developer and did that in your job.  What would happen?</strong>                                If you are sick or otherwise unable to work on your project, immediately alert your teammates and then your project advisor. Teammates should do what they can to continue with the project. We will deal with events like
+                                this on a case-by-case basis.</p>
+                            <p>Here's a preview of what happens at the end of the sprint. At the sprint review meeting we will begin by reading a user story description. Then your team demos the completed feature on the deployed site. The client (in this
+                                case that'll be the instructor playing that role) decides if it is correct, done and acceptable. Then we'll move to the next story. <strong>I can't say this with enough emphasis: the description and the completed work must match and it must meet all acceptance criteria!</strong></p>
+                            <p>Where do things typically go wrong?</p>
+                            <p>
+                                <ul>
+                                    <li>A description was written but it wasn't clear and detailed and a feature built that may or may not meet the requirements</li>
+                                    <li>No description was written but a feature was built anyway</li>
+                                    <li>A description was written but no feature was completed</li>
+                                    <li>A seemingly good description was written but it was poorly estimated, usually the work required was more difficult than anticipated. Feature completed correctly, partially or not at all.</li>
+                                    <li>No acceptance criteria (or tests) were written</li>
+                                    <li>No tests were written</li>
+                                </ul>
+                            </p>
+                        </li>
+                        <li>
+                            <p><strong>Architectural Decisions &#9654; </strong> There are some things your team should really decide on before starting. I've called these architectural but they're not necessarily that. They are more &ldquo;structural&rdquo;
+                                probably. Decide on the following, and write them down in your repository in the appropriate place:</p>
+                            <ol>
+                                <li>What folder structure and naming convention will you use for your project source code? You'll have at least 4 projects: 1) the main project, 2) NUnit testing project, 3) BDD testing project, and 4) Jest javascript testing
+                                    project. Your test projects should all begin or end in the word <code>Tests_</code> or <code>_Tests</code>. </li>
+                                <li>What .NET Core version to use?</li>
+                                <li>What front-end CSS library and version are you going to use? I recommend the latest version of Bootstrap, but we have had teams use other libraries. Two years ago a team went with a really nice minimalist design and used
+                                    <a href="https://getuikit.com/">UIkit</a>. I've used <a href="https://materializecss.com/">Materialize</a> for it's smaller and simpler approach. <a href="https://tailwindcss.com/">Tailwind CSS</a> seems to be really
+                                    popular right now. You may also want to talk about whether or not theme-ing is important for your project.</li>
+                                <li>Decide on how you'll use Javascript: jQuery (which version) or go for plain old JS. Any other libraries you think you'll want to use? Regardless of your decision, <strong>all</strong> team members <strong>must</strong>                                    follow the same convention -- no mix and match.</li>
+                                <li>How will you name your Git branches? Choose a strategy. Unfortunately it looks like the &ldquo;Create Branch&rdquo; feature in Jira is only available for Bitbucket repositories or GitHub repos with an Enterprise Account.
+                                    It won't create a branch for you with a personal account but it will recommend names.
+                                </li>
+                                <li>How will you write your database scripts, table names, PK and FK names? <em>Because of some tools I'll give you later, I'm making this decision for you.  See the example I'll put in the module.  It'll be required that everyone follow this example to the letter!</em></li>
+                                <li>Will you use eager loading or enable lazy loading of related entities in Entity Framework Core?</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <p><strong>Initial Data Model &#9654; </strong> This one's too critical to wait for. As a team, decide on and actually write the DDL (up and down) scripts for your <em>initial</em> data model. Make sure you have both the source
+                                and diagram in or accessible from your repo. This is only the initial version, but it should capture all the entities and relations for all the user stories you've committed to building during sprint 1 (and <strong>only</strong>                                sprint 1). It's quite likely that you won't get it right this first time, and that's OK. It's just far better if the whole team has something to start from at the outset, and the user story that sets up the project can
+                                at least get some models constructed. Then you can edit/refine/refactor all you like during your actual user story implementation.</p>
+                        </li>
+                    </ol>
+                </div>
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+</body>
+
+</html>
