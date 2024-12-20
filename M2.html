@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Milestone 2</title>
+	<link href="../../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../../css/site.css" rel="stylesheet">
+	<link href="../../css/assignments.css" rel="stylesheet">
+</head>
+<body>
+	<div class="page-header">
+		<h1 class="text-center">Milestone <small>Two</small></h1>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="objectives">
+					<h4>Primary Objectives:</h4>
+					<ol>
+						<li>Practice Git workflow</li>
+						<li>Choose or narrow down team project idea(s)</li>
+						<li>Inception phase activities for 1 or 2 project ideas to explore topic</li>
+					</ol>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="requirements">
+					<h4>Overall Requirements:</h4>
+					<ul class="list-unstyled">
+						<li>Brainstorming mindmap</li>
+						<li>Lightweight vision statement</li>
+						<li>List of needs &amp; features</li>
+						<li>Initial architecture diagram</li>
+						<li>Other "easy picking" parts of the inception template</li>
+						<li>At least 2 accepted pull requests (PR) for each team member (except maintainer)</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h4>Introduction</h4>
+			<p>This week is all about choosing and exploring your team project topic.  If you have too many good ideas then you'll explore them in order to narrow it down to just one.  If you don't have any good ones then this is a second week of coming up with a good one.</p>
+			<p>We're beginning the first phase of a project, which we call <em>inception</em>.  Remember, as always, everything goes in your repository!</p>
+				<div class="questions">
+					<h4>Tasks:</h4>
+					<ol>
+						<li>Gather with your team for a meeting to go through some inception phase activities for your chosen topic.  If you have more than one topic that you're still considering, do these for <strong>all</strong> of them. We'll be working from the inception phase template that you can find in the Week 2 module on Canvas.  Remember, that isn't a cookie cutter or step-by-step template, but rather a list of activities, deliverables or questions to ask during a reasonably agile project inception.
+						    <ol>
+								<li>Begin with a brainstorming session about your topic.  Your goal is to explore its maximum possible scope, both breadth and depth, with input from all team members and stakeholders in order to outline what the project could possibly be about.  This is completely free-form; go in whatever direction feels right.  &ldquo;Pie in the sky&rdquo; ideas are fine here, as are mundane things.  Just explore, and capture it in a <a href="https://en.wikipedia.org/wiki/Mind_map">Mindmap</a>.  I use <a href="https://miro.com/">Miro</a> for this but there are other suitable tools out there.  Since we're meeting remote at the moment you'll want to use a cloud-based online tool for this where everyone can use it simultaneously, which Miro does allow.</li>
+
+								<li>Next up, try to capture the essence of what you explored in the mindmapping exercise and <em>reduce</em> it to a one paragraph vision statement.  A vision statement is used to establish a <em>shared vision</em> about what the project is.  It is a short description of your project that briefly answers the following questions:
+									<ul>
+										<li>What is it? Include 3 or so main features.</li>
+										<li>What is it's purpose?</li>
+										<li>Why are you proposing this topic?</li>
+										<li>Are there any competitors or existing applications that do this?  If so, list them and explain why your topic is better or still worth doing.</li>
+									</ul>
+								</li>
+
+								<li>Now, let's try to establish a reasonable initial scope for the project.  Write a list of needs and features for your application.  What can a user do with it?  What will it do for a user?  What problems will it solve (i.e. a feature that solves a problem).  What needs do your users have?  Are there needs for the system?  Next week we'll try to turn this into a list of &ldquo;Epic&rdquo; user stories and non-functional requirements.</li>
+
+								<li><p>Create a diagram that shows your initial system/network architecture for this project.  Normally you wouldn't know this yet because you'd wait until you knew more about your project before designing the architecture that will enable your solution to be built.  But we've already fixed the initial architecture by deciding on the ASP.NET Core MVC / SQL Server / Azure stack.  If you already have an external API for your project, add that in, otherwise just recognize this is an <em>initial</em> architecture that will be extended as you decide on features and solutions. </p>
+								<p>And precisely because this is only an initial design, do not simply generate a .png file and drop it in your repo.  This needs to be a living document that you can update anytime and by anyone in your team as decisions are made.  I recommend using an open source vector drawing tool and placing the source code in your repository.  SVG is a good choice.  Or, use an online tool that can be accessed by anyone in your team and then include a link in a suitable place in your repo.</p>
+								</li>
+
+								<li>Lastly, look over the inception template and see if there are any other activities you're ready to tackle this week.  If so, have a go at it.  The more you can do now the better.  Otherwise you'll do them next week.</li>
+
+						        <!--li>A refined list of primary needs and features.  I'll give you some to start with.</li>
+								<li>A refined list of requirements, including any non-functional requirements.  Again, just the top-level, most important ones, or the ones that go with your most important needs/features.</li>
+								<li>Identify Epics and Features and break them down into user stories.  Then refine/write at least 10 user stories for your main features.  Use this format. <blockquote>As a <span class="standout">type of user</span>, I want <span class="standout">some goal</span> so that <span class="standout">some reason</span>.</blockquote></li>
+						        <li>Modeling outputs.  I would like to see some informal Use Case diagrams for your top features, sequence or flow diagrams and a preliminary database design or ER diagram.  Identify Entities and Actions.  <span class="strikethrough">Please do these on a whiteboard (preferred) or hand drawn on paper -- so you can erase and redraw many times.</span>  Afterwards, take a photo or scan to put in your repository.  You can use an online collaboration tool like <a href="https://miro.com/">Miro</a> if you want to.</li>
+								<li>Architecture drawing.  What hardware/software/network is going to be required to make this work?</li>
+	
+						        <li>Refine the given rough Vision discussion into a solid Vision Statement 1.0 using the format we saw in the video  (in the Software Engineering slides from last term).
+								</li>
+								<li>Remember that you don't just go through all these in a linear fashion and check off what's done.  Use a cyclical approach where you use the tool that will help you accomplish what you're trying to accomplish: figure out the requirements and potential solution space of the project.</li-->
+						    </ol>
+						    
+						</li>
+						<li><p>Make sure you're using our Git Workflow for all the documents you create or edit.  It can be a good idea to practice on a throw-away repository if you don't want to risk messing things up in your real ones; consider doing this while all team members are on a Zoom or Discord session so you can all learn from each other and practice at the same time.  And make sure to practice merge conflicts!</p>
+						<p>Each team member needs to have at least 2 accepted pull requests visible on the official repo.  The official maintainer does not need to have any PR's though, as they'll be the one processing all these.</p> </li>
+						
+					</ol>
+				</div>
+				<p></p>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="../../js/bootstrap.min.js"></script>
+</body>
+</html>
